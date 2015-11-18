@@ -1,38 +1,29 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h4>My Piano lives at</h4>
+        <p>
+          6 / 160 Gwenyfred Road<br/>
+          6151 Kensington<br/>
+          Western Australia
+        </p>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+      <div class="col-lg-4">
+        <h4>Visit us</h4>
+        <p>
+          <a href="#">Facebook</a><br/>
+          <a href="#">Youtube</a><br/>
+          <a href="#">Google+</a>
+        </p>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="col-lg-4">
+        <h4>Pianology available in the South Perth area</h4>
+        <p>Come to my place or I will come to yours if you live in the area of South Perth, Victoria Park, East Victoria Park, Kensington, Como.</p>
       </div>
     </div>
-
   </div>
+</div>
 
-</footer>
+<script src="assets/js/bootstrap.min.js"></script>
+
