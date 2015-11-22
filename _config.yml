@@ -8,7 +8,7 @@
 exclude: ['Gemfile.lock', 'Gemfile', '.DS_Store', '.git', '.gitignore']
 
 excerpt_separator: "<!-- more -->"
-include: ['_pages']
+include: ['_pages', '_posts']
 relative_permalinks: false
 
 baseurl: "" # the subpath of your site, e.g. /blog
